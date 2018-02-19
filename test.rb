@@ -8,7 +8,7 @@ def app
 end
 def test_my_default
   get '/'
-  assert_equal 'BHello, world!', last_response.body
+  assert_equal 'Hello, world!', last_response.body
 end
 def test_with_params
   get '/Frank'
